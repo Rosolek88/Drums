@@ -1,0 +1,37 @@
+body{
+background-image: url(./drums.jpg);
+background-repeat: no-repeat, repeat;
+        background-size: cover;
+        background-color:violet;
+        justify-content: center;
+        height: 100%;
+        
+        text-align: center;
+        font-family: monospace;
+        line-height: 1;
+        font-size: 55px;
+ 
+}
+
+
+.bstyle {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(76, 130, 175);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.bstyle:hover {background-color: #3e468e}
+
+.bstyle:active {
+  background-color: #3e638e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
